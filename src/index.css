@@ -24,7 +24,7 @@
   border: 2px solid rgba(112, 192, 91, 1);
 }
 .header{
-  background-image: url(./img/header.img.png);
+  background-image: url(./public/img/header.img.png);
   min-height: 200px;    
   margin: 0 auto;
   background-size: cover;
