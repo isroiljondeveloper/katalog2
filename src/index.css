@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.butt{
+  border-radius: 4px;
+  background: rgba(112, 192, 91, 1);
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+.container{
+  max-width: 1300px;
+}
+.ddd{
+  height: 400px;
+}
+.typ{
+  max-width: 459px;
+  height: 40px;
+}
+.typ:hover{
+  border: 2px solid rgba(112, 192, 91, 1);
+}
+.header{
+  background-image: url(./img/header.img.png);
+  min-height: 200px;    
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+.ellik{
+  width: 56px;
+  height: 32px;
+  background: rgba(255, 102, 51, 1);
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.ss{
+  width: 300px;
+  background-color: white;
+  min-height: 390px;
+}
+.bb{
+  width: 270px;
+  height: 40px;
+  border-radius: 4px;
+  border: 2px solid rgba(112, 192, 91, 1);
+  color: rgba(112, 192, 91, 1);
+}
+.bb:hover{
+  background-color: rgba(112, 192, 91, 1);
+  color: white;
+}
+.bb1{
+  width: 270px;
+  height: 40px;
+  border-radius: 4px;
+  border: 2px solid rgba(112, 192, 91, 1);
+  color: rgba(112, 192, 91, 1);
+}
+.bb1:hover{
+  background-color:rgba(255, 102, 51, 1)    ;
+  color: white;
+  border: none;
+}
+.aksi{
+  background: rgba(251, 248, 236, 1);
+}
+.dd{
+  width: 150px;
+}
+.spes{
+  background: rgba(251, 248, 236, 1);
+}
+.sa{
+  font-size: 13px;
+}
+.aa{
+  background: rgba(252, 213, 186, 1);
+  border-radius: 4px;
+  padding: 2px 30px ;
+  min-height: 200px;
+}
+.aa1{
+  background: rgba(229, 255, 222, 1);
+  border-radius: 4px;
+  padding: 2px 30px ;
+  display: flex;
+  min-height: 200px;
+  justify-content: space-between;
+}
+.car{
+  width: 180px;
+  height: 110px;
+}
+.pp{
+  width: 97px;
+  height: 32px;
+  color: black;
+  background-color: rgba(243, 242, 241, 1);
+  border: none;
+}
+.pp:hover{
+  color: white;
+  background: rgba(112, 192, 91, 1);
+  border-radius: 4px;
+  font-size: 12px;
+}
+.nashi{
+  background: rgba(251, 248, 236, 1);
+}
+.stati{
+  background: rgba(251, 248, 236, 1);
+}
+.article-card img {
+  height: 200px;
+  object-fit: cover;
+}
+.article-date {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 5px;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.btn-more {
+  background-color: #aef5b2;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+ .footer {
+  background: rgba(249, 244, 226, 1);
+  padding: 15px 0;
+  font-size: 14px;
+}
+.footer-logo img {
+  height: 40px;
+}
+.social-icons a {
+  color: #000;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+
+.bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  z-index: 999;
+  padding: 5px 0;
+}
+.bottom-nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+}
+.bottom-nav i {
+  font-size: 20px;
+}
+.cart-badge {
+  position: absolute;
+  top: -3px;
+  right: 18px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .bottom-nav {
+    display: block;
+  }
+}
+.ff{
+  width: 24px;
+  height: 24px;
+}
